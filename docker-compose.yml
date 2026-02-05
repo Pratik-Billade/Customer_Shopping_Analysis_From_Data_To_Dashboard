@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:13
+    restart: always
+    environment:
+      POSTGRES_USER: sturdyskull
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: customer_shopping_activity_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    
+  adminer:
+    image: adminer:latest
+    restart: always
+    ports:
+      - "8080:8080"
+
+volumes:
+  db_data:
