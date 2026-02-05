@@ -1,0 +1,12 @@
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# macOS
+.DS_Store
+
+# R
+.Rhistory
+
+# Python
+__pycache__/
