@@ -21,6 +21,7 @@ The raw dataset is stored separately from the cleaned dataset to maintain data i
 ---
 
 ## Project Structure
+```text
 customershopping-analysis
 ├── dataset
 │   ├── raw
