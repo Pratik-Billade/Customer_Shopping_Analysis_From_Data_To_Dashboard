@@ -21,32 +21,25 @@ The raw dataset is stored separately from the cleaned dataset to maintain data i
 ---
 
 ## Project Structure
-customershopping-analysis/
-│
-├── dataset/
-│   ├── raw/
-│   └── processed/
-│
-├── python_data_preparation/
+customershopping-analysis
+├── dataset
+│   ├── raw
+│   └── processed
+├── python_data_preparation
 │   └── data_preparation.ipynb
-│
-├── sql_analysis/
+├── sql_analysis
 │   └── customer_shopping_analysis.sql
-│
-├── powerbi/
+├── powerbi
 │   ├── customer_shopping_dashboard.pbix
-│   └── images/
+│   └── images
 │       ├── dashboard_overview.png
 │       ├── dashboard_male_young_adult.png
 │       ├── dashboard_subscribed_customers.png
 │       └── dashboard_senior_clothing.png
-│
-├── presentation/
+├── presentation
 │   └── Customer_Shopping_Data_Analysis_Presentation.pdf
-│
-├── report/
+├── report
 │   └── Customer_Shopping_Data_Analysis_Report.pdf
-│
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
